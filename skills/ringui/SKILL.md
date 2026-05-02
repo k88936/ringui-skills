@@ -3,7 +3,7 @@ name: ringui
 description: docs and demo for ringui, a react component lib
 ---
 
-## Components
+# Components
 the concrete usage demo(.stories.tsx) are in skill reference.
 
 | Component | Story File | Description |
@@ -86,3 +86,9 @@ the concrete usage demo(.stories.tsx) are in skill reference.
 | user-agreement | `user-agreement.stories.tsx` | Displays a user agreement/EULA dialog. |
 | user-card | `user-card.stories.tsx` | A component that displays user details. |
 | theme-palette | `variables.stories.tsx` | Shows the Ring UI color palette based on CSS custom properties. |
+
+# Guideline
+
+- ALWAYS prefer Ring UI components over custom implementations.
+- ALWAYS prefer Ring UI builtin palete color over hardcode color
+- ALWAYS prefer Ring UI  Group, Island ... as container, INSTEAD OF  div,span,...
